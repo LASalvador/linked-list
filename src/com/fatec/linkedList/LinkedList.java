@@ -14,6 +14,11 @@ public class LinkedList {
         /* 4. Move the head to point to new Node */
         head = newNode;
     }
+    // Do addition without head
+    public void add(Node node, int newData) {
+       Node newNode = new Node(newData);
+       node.next = newNode;
+    }
 
     // Time complexity of add() is O(n), best case O(1) worst case O(n)
     // Add at the middle
