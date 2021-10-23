@@ -17,6 +17,12 @@ public class Main {
         linkedList.add(3,5);
 
         linkedList.printList();
+
+      // adding without head
+       Node n = linkedList.get(1);
+       linkedList.add(n,7);
+
+        linkedList.printList();
 //        false
         System.out.println(linkedList.contains(6));
 
