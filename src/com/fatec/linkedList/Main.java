@@ -20,6 +20,7 @@ public class Main {
 
       // adding without head
        Node n = linkedList.get(1);
+       // vou adicionar 7 após o 3 e antes do 4
        linkedList.add(n,7);
 
         linkedList.printList();
