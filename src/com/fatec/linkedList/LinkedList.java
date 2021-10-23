@@ -17,6 +17,7 @@ public class LinkedList {
     // Adding without head
     public void add(Node node, int newData) {
        Node newNode = new Node(newData);
+       newNode.next = node.next
        node.next = newNode;
     }
 
